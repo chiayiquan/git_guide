@@ -8,3 +8,9 @@ function secondCommitFunction() {
 
 hello();
 secondCommitFunction();
+function thirdCommitFunction() {
+  return console.log("Third commit function");
+}
+
+hello();
+thirdCommitFunction();
