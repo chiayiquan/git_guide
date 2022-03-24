@@ -6,10 +6,12 @@ function secondCommitFunction() {
   return console.log("This is the second commit");
 }
 
-function thirdCommitFunction() {
-  return console.log("Third commit function");
+function changedFunction() {
+  return console.log(
+    "This is the changes before pulling from the remote branch"
+  );
 }
 
 hello();
-thirdCommitFunction();
 secondCommitFunction();
+changedFunction();
